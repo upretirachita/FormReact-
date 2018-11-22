@@ -1,9 +1,7 @@
-import React from 'react';
-
-
+import React from "react";
 
 const ErrorFeedback = props => (
-    <p className={props.errormsg ? 'invalid' : 'valid'}>{props.errormsg}</p>
-  );
+  <p className={props.errormsg ? "invalid" : "valid"}>{props.errormsg}</p>
+);
 
-  export default ErrorFeedback;
+export default ErrorFeedback;
