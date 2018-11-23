@@ -177,6 +177,7 @@ class App extends Component {
           <h4>Think you have what it takes?Show us.</h4>
           <h3>1.Personal Information</h3>
           <div className="personalinfo1">
+            <lable>Full Name</lable>
             <Input
               type="text"
               name="fullname"
@@ -186,7 +187,7 @@ class App extends Component {
               handleBlur={this.handleBlur}
               errormsg={errors.fullname}
             />
-
+            <lable>Age</lable>
             <Input
               type="text"
               name="age"
@@ -197,7 +198,8 @@ class App extends Component {
               errormsg={errors.age}
             />
           </div>
-          <div className="personalinfo2">
+          <div className="personalinfo1">
+            <lable>Email</lable>
             <Input
               type="email"
               name="email"
@@ -207,8 +209,8 @@ class App extends Component {
               handleBlur={this.handleBlur}
               errormsg={errors.email}
             />
-          </div>
-          <div className="personalinfo2">
+
+            <lable>Re entry Email</lable>
             <Input
               type="email"
               name="reemail"
@@ -218,8 +220,7 @@ class App extends Component {
               handleBlur={this.handleBlur}
               errormsg={errors.reemail}
             />
-          </div>
-          <div className="personalinfo2">
+            <lable>Address</lable>
             <Input
               type="text"
               name="address"
@@ -231,6 +232,7 @@ class App extends Component {
             />
           </div>
           <div className="personalinfo1">
+            <lable>City</lable>
             <Input
               type="text"
               name="city"
@@ -240,6 +242,7 @@ class App extends Component {
               handleBlur={this.handleBlur}
               errormsg={errors.city}
             />
+            <lable>State</lable>
             <Input
               type="text"
               name="countrystate"
@@ -249,6 +252,7 @@ class App extends Component {
               handleBlur={this.handleBlur}
               errormsg={errors.countrystate}
             />
+            <lable>Country Region</lable>
             <Input
               type="text"
               name="countryregion"
@@ -258,6 +262,7 @@ class App extends Component {
               handleBlur={this.handleBlur}
               errormsg={errors.countryregion}
             />
+            <lable>ZIP-CODE</lable>
             <Input
               type="text"
               name="zipcode"
